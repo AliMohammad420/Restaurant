@@ -1,10 +1,11 @@
 `use strict`;
-
+const foodAll = [];
 function Food (foodname,type,price,foodId){
 this.foodId=foodId;
 this.foodName=foodname;
 this.type=type;
 this.price=price;
+foodAll.push(this);
 }
 
 let foodMain=document.getElementById('tableF'); 
@@ -61,4 +62,9 @@ let foodId=uniqueId();
 
 let newFood=new Food(foodName,type,price,foodId);
 newFood.print();
+saveData();
 }
+function saveData(){
+    let Food =JSON.stringify(foodAll);   
+    localStorage.setItem("food",Food);
+    }
