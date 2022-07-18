@@ -1,4 +1,4 @@
-`use strict`;
+
 const foodAll = [];
 function Food (foodname,type,price,foodId){
 this.foodId=foodId;
@@ -68,3 +68,5 @@ function saveData(){
     let Food =JSON.stringify(foodAll);   
     localStorage.setItem("food",Food);
     }
+ 
+    
