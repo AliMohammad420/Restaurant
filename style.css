@@ -92,6 +92,13 @@ table {
     width: 50%;
 }
 
+#tableF{
+  text-align:center; 
+  margin-left:auto; 
+  margin-right:auto; 
+  margin-top:130px;
+  width: 50%;
+}
 
 #cop {
     margin-top: 70px;
