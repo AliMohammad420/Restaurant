@@ -1,4 +1,4 @@
-*{
+ *{
    
     box-sizing: border-box;
     color:blue;
@@ -47,10 +47,10 @@ ul {
      { 
         color: blue;
      }
-  
 
 
-form{
+
+     #foodForm{
 
     margin: auto;
     text-align: center;
@@ -59,7 +59,7 @@ form{
 
 }
 
-input[type=text], select {
+#foodForm input[type=text], select {
     width:75%;
     height: 25px;
     padding-left: 12px;
@@ -73,48 +73,25 @@ label {
     padding: 12px 12px -1 0;
     display: inline-block;
 }
-input[type=submit] {
+#foodForm input[type=submit] {
     background-color: #000000;
     padding: 10px 12px;
     border-radius: 4px;
     float: center;
 }
 
-table, th, td {
+th, td {
     border: 1px solid black;
 }
 
 table {
     text-align:center; 
-    margin-left:auto; 
-    margin-right:auto; 
+    margin-left: 30%;
+     margin-top: 2%;
     margin-top:130px;
     width: 50%;
 }
 
-#tableF{
-  text-align:center; 
-  margin-left:auto; 
-  margin-right:auto; 
-  margin-top:130px;
-  width: 50%;
-}
-
-#cop {
-    margin-top: 70px;
-    text-align:center;
-}
-  .main {
-    background-color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 35%;
-    height: 10%;
-    margin-left: 30%;
-    margin-top: 10%;
-   
-  }
-  
  
+
   
